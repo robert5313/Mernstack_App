@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+label {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    color: blue;
+}
+
+input {
+    width: 100vh;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
