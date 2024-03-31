@@ -1,4 +1,5 @@
 # React + Vite
+We create react project using ##npm i [vite@latest]
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

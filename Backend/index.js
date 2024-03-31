@@ -8,6 +8,7 @@ const app = express()
 const port = process.env.PORT || 4001
 
 const userRoute = require('./Route/routes_config');
+const adminRoute = require('./Route/admin_routes');
 
 //mongoose connection
 mongoose
@@ -22,6 +23,7 @@ mongoose
 app.use(cors());
 app.use(bodyParser.json());
 app.use('/user', userRoute);
+app.use('/admin', adminRoute);
 
 app.get('/', (req, res) => {
     res.json({ message: "Welcome to Driving School API" });
